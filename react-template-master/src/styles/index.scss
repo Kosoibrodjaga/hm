@@ -1,0 +1,40 @@
+body {
+
+.h1 {
+  font-family: 'Forum';
+  color: #3E424B;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+
+.button-wrapper {
+  width: 818px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstbt {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #BB8C5F;
+  padding: 10px 16px ;
+  background: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  display: flex;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.firstbt:hover {
+  background-color: #524336;
+  color: white;
+}
+
+.firstbt:active {
+  background-color: #BB8C5F;
+}
+}

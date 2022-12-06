@@ -1,0 +1,123 @@
+body {
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+ }
+ 
+ .card {
+    width: 289px;
+    justify-content: center;
+    padding: 15px 0 ;
+    background: #F5F5F5;
+    position: relative;
+ }
+ 
+ h3 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    color: #3E424B;
+    margin: 0 0 10px 0;
+    min-height: 48px;
+ }
+ 
+ img {
+    margin-bottom: 22px;
+ }
+ 
+ .text-block {
+    padding: 0 30px;
+ }
+ 
+ .text-price {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #BB8C5F;
+    margin-bottom: 20px;
+ }
+ 
+ .button-in-cart {
+    background: #EEEEEE;
+    border: 2px solid #BB8C5F;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #BB8C5F;
+    padding: 8px 25px 12px 25px;
+    margin-bottom: 30px;
+    cursor: pointer;
+ }
+ 
+ .favourite {
+    width: 19.6px;
+    height: 17.65px;
+    color: #524336;
+    position: absolute;
+    z-index: 1;
+    right: 30px;
+    top: 30px;
+ 
+    &.red {
+       background-color: red;
+    }
+ }
+ 
+ .favourite-icon {
+    margin-bottom: unset;
+ }
+ 
+ .count-block {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .count-button {
+    color: #3E424B;
+    background: #EEEEEE;
+    border: 2px solid #BB8C5F;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+ }
+ 
+ .count-block-text-block {
+  text-align: center;
+  padding: 0px 26px;
+ }
+ 
+ .count-block-text1 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: #3E424B;
+    margin-top: 5px;
+    margin-bottom: 3px;
+ }
+ 
+ .count-block-text2 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    text-align: center;
+    color: #D0D0D0;
+    margin: 0 auto;
+ }
+}
