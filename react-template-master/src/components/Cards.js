@@ -20,7 +20,7 @@ function CardOfProduct(props) {
       setHeart(prev => !prev)
    }
 
-   let heartClass = heart ?  './assests/images/like.svg' : './assets/images/unlike.svg'
+   let heartClass = heart ?  './assets/images/like.svg' : './assets/images/unlike.svg'
    
       let changeNumberPlus = () => {
          setNumber1(prevNumber => prevNumber + 1)
@@ -29,11 +29,11 @@ function CardOfProduct(props) {
       let changeNumberMinus = () => {
          setNumber1(prevNumber => {
             if (prevNumber === 1) {
-               setNumber1(0);
+               setNumber1(-1);
                changeCartState()
             } 
             else{
-               return prevNumber - 1
+               return prevNumber - 1;
             }
          })
       }
